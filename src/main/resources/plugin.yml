@@ -1,0 +1,17 @@
+name: TSVerify
+version: 1.0
+api-version: 1.13
+main: de.web.moritz.mikus.TSVerify.TSVerify
+commands:
+  ts:
+    description: main function
+    aliases: [ts3, teamspeak, teamspeak3]
+    permission: TSVerify.info
+    permission-message: Du hast keine ausreichende Berechtigung für diesen Befehl.
+permissions:
+  tsverify.*:
+    default: false
+  tsverify.info:
+    default: false
+  tsverify.verify:
+    default: false
